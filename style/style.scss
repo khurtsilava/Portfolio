@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Palette+Mosaic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  height: 1500px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 90px;
+  background-color: #00141e;
+}
+
+header {
+  ul {
+    display: flex;
+  }
+}
+
+ul {
+  li {
+    a {
+      margin: 10px;
+      color: #6975e3;
+      font-size: 30px;
+      text-transform: capitalize;
+
+      &:hover {
+        color: #ff0046;
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6975e3;
+  width: 190px;
+  height: 50px;
+  border-radius: 30px;
+  color: #fff;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+
+  &:hover {
+    color: #ff0046;
+  }
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+
+  h1 {
+    color: #0b132a;
+    font-size: 90px;
+  }
+
+  span {
+    color: #6975e3;
+  }
+
+  h3 {
+    color: #4f5665;
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+.media {
+  width: 64px;
+  height: 330px;
+  background-color: rgba(105, 117, 227, 0.15);
+  border-radius: 60px 10px 10px 60px;
+  display: inline-block;
+  margin-left: auto;
+
+  img {
+    margin: 20px auto auto;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .baner {
+    width: 1100px;
+    height: 200px;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px 50px 50px 40px;
+    margin-left: auto;
+
+    span {
+      width: 1px;
+      height: 170px;
+      background-color: #c4c7eb;
+    }
+
+    .itms {
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+      font-family: "Indie Flower", cursive;
+
+      img {
+        margin: 15px;
+      }
+    }
+  }
+}
+
+// 2 nawili
+
+.taitli {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: #0b132a;
+    font-size: 35px;
+  }
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    display: flex;
+    align-items: center;
+    //  justify-content: center;
+  }
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .line {
+    width: 1000px;
+    height: 5px;
+    background-color: #e5e5e5;
+  }
+}
+
+.group {
+  text-align: center;
+  margin-top: 55px;
+}
+
+// footer
+footer {
+  width: 100%;
+  height: 160px;
+  background-color: #0b132a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20pxs;
+  h1 {
+    a {
+      color: #fff;
+      &:hover {
+        color: #ff0046;
+      }
+    }
+  }
+}
